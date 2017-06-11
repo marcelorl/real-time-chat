@@ -1,10 +1,11 @@
 # Live chat example
 
 #### Installation
-
-  $ yarn
-  $ cp .env.example .env (add your pusher credentials)
-  $ cd client && yarn
+```
+$ yarn
+$ cp .env.example .env (add your pusher credentials)
+$ cd client && yarn
+```
 
 #### To test it:
 
