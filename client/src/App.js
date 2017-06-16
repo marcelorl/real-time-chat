@@ -27,13 +27,11 @@ class App extends Component {
       message: '',
       history: history
     }, () => {
-      axios.post('http://localhost:3001/send', {message})
+      axios.post('/send', {message})
     });
   }
 
   renderHistory() {
-    console.log(this.state.history);
-
     return this.state.history.map((val, key) =>
       <div key={key}>{val}</div>
     )
@@ -42,7 +40,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>
+        <div className="chat-history">
           {this.renderHistory()}
         </div>
         <textarea cols="30" rows="10" onChange={e => this.onChange(e)} value={this.state.message} />

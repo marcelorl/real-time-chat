@@ -43,7 +43,7 @@ routes.post('/send', (req, res) => {
 
 app.use(routes);
 
-app.set('port', (3001));
+app.set('port', (3000));
 
 app.listen(app.get('port'), () => {
     console.log(`Find the server at: http://localhost:${app.get('port')}/`); // eslint-disable-line no-console
