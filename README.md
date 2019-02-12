@@ -1,5 +1,7 @@
 # Live chat example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcelorl/real-time-chat.svg)](https://greenkeeper.io/)
+
 #### Installation
 ```
 $ yarn
